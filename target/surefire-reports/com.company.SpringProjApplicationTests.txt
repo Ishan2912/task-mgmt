@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.company.SpringProjApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.252 s <<< FAILURE! - in com.company.SpringProjApplicationTests
+contextLoads  Time elapsed: 0.026 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.company.taskmanagement.HelloController] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e]
+Caused by: java.lang.NoClassDefFoundError: NamedParameterJdbcTemplate
+Caused by: java.lang.ClassNotFoundException: NamedParameterJdbcTemplate
+
